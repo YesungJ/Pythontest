@@ -1,0 +1,22 @@
+python 講義8回目
+
+条件判断 if文
+
+条件演算子
+a==b   aとbが等しい ->true
+a!=b   aとbが等しくない ->true
+a>b   aはbより大きい ->true
+a<b   aはbより小さい->true
+a>=b   aはb以上->true
+a<=b   aはb以下->true
+(a==1)and(b==1)   aは1かつbは1->true
+(a==1)or(b==1)   aは1またはbは1->true
+
+pythonでは
+a in b     bにaが含まれる　->true
+a not in b     bにaが含まれていない　->true
+a is b     aはbと同じオブジェクト　->true
+a is not b     aはbと同じオブジェクトではない　->true
+not(a>=b)     a>=bの評価を反転　->falseを返す
+
+これらの結果はtrueかfalseで返す
